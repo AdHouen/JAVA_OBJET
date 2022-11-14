@@ -1,16 +1,9 @@
 package bookstore.metier;
 
-import java.io.UTFDataFormatException;
+
 import java.text.DecimalFormat;
 
 public class Livre {
-
-	public static void main(String[] args) {
-
-		Livre monLivre1 = new Livre("George Orwell", "1984", 310, 8.84);
-		Livre monLivre2 = new Livre("Franck Herbert", "Dune", 907, 11.90);
-
-	}
 
 	///////// Variable ///////////////////////
 	private String titre;
@@ -26,7 +19,7 @@ public class Livre {
 		this.titre = unTitre;
 		this.nbPages = unNbPages;
 		this.prix = unPrix;
-		this.prixFixe = prix >= 0;
+//		this.prixFixe = prix >= 0;
 
 	}
 
@@ -133,6 +126,9 @@ public class Livre {
 		}
 		return this.getAuteur();
 	}
+	
+	
+	
 	
 	
 	

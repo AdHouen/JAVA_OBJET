@@ -5,19 +5,16 @@ import java.text.DecimalFormat;
 
 public class Livre {
 
-	public static void main(String[] args) {
-
-		Livre monLivre1 = new Livre("George Orwell", "1984", 310, 8.84);
-		Livre monLivre2 = new Livre("Franck Herbert", "Dune", 907, 11.90);
-
-	}
+	
 
 	///////// Variable ///////////////////////
 	private String titre;
 	private String auteur;
 	private int nbPages;
 	private double prix;
-	private boolean prixFixe;
+	static private Comptable comptable = new Comptable();
+//	private boolean prixFixe;
+	
 
 	///////// Constructeur ///////////////////
 
@@ -27,6 +24,7 @@ public class Livre {
 		this.nbPages = unNbPages;
 		this.prix = unPrix;
 		this.prixFixe = prix >= 0;
+		comptable.comptabilise(this);
 
 	}
 
@@ -134,6 +132,9 @@ public class Livre {
 		return this.getAuteur();
 	}
 	
+	static public double getTotalPrix() {
+		return comptable.getTotalPrix();
+	}
 	
 	
 
