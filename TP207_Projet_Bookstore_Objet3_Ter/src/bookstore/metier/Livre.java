@@ -2,6 +2,7 @@ package bookstore.metier;
 
 
 import java.text.DecimalFormat;
+import java.util.Objects;
 
 public class Livre {
 
@@ -129,6 +130,27 @@ public class Livre {
 	static public double getTotalPrix() {
 		return comptable.getTotalPrix();
 	}
+
+	
+	// TP  OBJET 3 TER //
+	@Override
+	public int hashCode() {
+		return Objects.hash(nbPages);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Livre other = (Livre) obj;
+		return nbPages == other.nbPages;
+	}
+	
+	
 	
 	
 	
