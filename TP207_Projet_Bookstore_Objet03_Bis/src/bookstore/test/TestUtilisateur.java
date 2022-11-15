@@ -1,6 +1,5 @@
 package bookstore.test;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import bookstore.metier.Livre;
@@ -40,7 +39,7 @@ public class TestUtilisateur {
         displayRetardOrNot(toto);
         System.out.println();
         
-        // Rendre livre 
+        // Rendre livre puis emprunter
         
         toto.rendreLivre(asterix);
         zozo.EmprunterUnLivre(asterix, dateEmprunt2);
