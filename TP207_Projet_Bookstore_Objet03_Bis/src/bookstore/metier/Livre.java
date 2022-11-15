@@ -121,7 +121,7 @@ public class Livre {
 
 	}
 
-
+	// OVERIDE
 	@Override
 	public String toString() {
 		DecimalFormat dFormat = new DecimalFormat("00.00€");
@@ -131,6 +131,10 @@ public class Livre {
 				+ "\nLe nombre de page est de : " + this.nbPages 
 				+ "\nLe prix est de : " + (this.prix >= 0 ? dFormat.format(this.prix) : "Prix indeterminé");
 	}
+	
+	
+	//METHODES 
+	
 	
 	public int compare(Livre livre) {
 		return Integer.compare(this.nbPages - livre.nbPages, 0);

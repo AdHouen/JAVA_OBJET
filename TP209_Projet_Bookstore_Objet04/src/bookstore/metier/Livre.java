@@ -130,17 +130,12 @@ public class Livre implements Comparable<Livre>{
 	}
 
 	@Override
-	public int compareTo(Livre 1) {
-		if (nbPages == l.nbPages) {
-		      return 0;
-		    }
-		    else if (nbPages > l.nbPages) {
-		      return +1;
-		    }
-		    else {
-		      return -1;
-		    }
+	public int compareTo(Livre livre) {
+		return livre.nbPages - this.nbPages;
+		
 	}
+	
+	
 	
 	
 	
