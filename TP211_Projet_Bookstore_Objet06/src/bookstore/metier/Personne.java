@@ -32,8 +32,8 @@ public abstract  class Personne implements iBavard {
 		return "Le NOM de la personne est : " + nom + "\nLe PRENOM de la personne est : " + prenom;
 	}
 
-	@Override
-	abstract public void parle();
+//	@Override
+//	abstract public void parle();
 	
 	
 

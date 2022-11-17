@@ -29,9 +29,9 @@ public class TestAnimal {
 		
 		System.out.println();
 		
-		// Affichage avec la question 4
+		// Affichage avec la question 5
 		
-		System.out.println("Affichage avec la question 4");
+		System.out.println("Affichage avec la question 5");
 		System.out.println();
 		
 		Animal [] animaux2 = { new Animal ("Truc"), new Animal (), new Chien ("Médor"), new Homme (), new Homme ("Robert")};
