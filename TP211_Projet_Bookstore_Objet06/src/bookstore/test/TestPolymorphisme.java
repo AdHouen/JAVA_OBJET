@@ -48,6 +48,8 @@ public class TestPolymorphisme {
 		Arrays.asList(bavards).forEach(x->x.parle());
 		
 		
+		
+		
 
 	}
 	
