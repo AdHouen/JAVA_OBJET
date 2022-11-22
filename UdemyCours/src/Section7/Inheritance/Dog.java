@@ -17,7 +17,7 @@ public class Dog extends Animal{
 		this.teeth = teeth;
 		this.coat = coat;
 		
-		
+		 
 		
 		
 		
