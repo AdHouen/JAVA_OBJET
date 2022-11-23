@@ -1,0 +1,6 @@
+[main] ERROR | facto.CalculFactorielleAvecExceptions                        | Houston, we have a problem (CalculFactorielleAvecExceptions.java:41)
+[main] ERROR | facto.CalculFactorielleAvecExceptions                        | Houston, we have a problem (CalculFactorielleAvecExceptions.java:41)
+[main] ERROR | facto.CalculFactorielleAvecExceptions                        | Houston, we have a problem pas de AZERTY (CalculFactorielleAvecExceptions.java:29)
+[main] ERROR | facto.CalculFactorielleAvecExceptions                        | Houston, we have a problem (CalculFactorielleAvecExceptions.java:41)
+[main] ERROR | facto.CalculFactorielleAvecExceptions                        | Houston, we have a problem pas de AZERTY (CalculFactorielleAvecExceptions.java:29)
+[main] ERROR | facto.CalculFactorielleAvecExceptions                        | Houston, we have a problem (CalculFactorielleAvecExceptions.java:41)
