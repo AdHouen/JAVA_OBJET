@@ -51,6 +51,16 @@ public class Client extends Personne {
 		
 		
 		System.out.println("Voici le chiffre d'affaire de toto : " + totoClientParticulier.getChiffreAffaire());
+		
+		
+		// CA pas encore codé
+		
+		float cumul = 0;
+		for (Commande cde : totoClientParticulier.getCommandes()) {
+			
+		}
+		
+		
 
 	}
 }
