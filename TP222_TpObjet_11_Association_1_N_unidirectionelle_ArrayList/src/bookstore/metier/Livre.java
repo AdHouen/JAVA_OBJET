@@ -1,8 +1,8 @@
 package bookstore.metier;
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
-import java.util.Date;
+import java.time.format.DateTimeFormatter;
+
 
 public class Livre {
 
@@ -14,8 +14,8 @@ public class Livre {
 	private double prix;
 
 	private EnumStatusLivre status;
-	private Date dateEmprunt = new Date(0);
-	public static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+	private LocalDate dateEmprunt = LocalDate.now();
+	public static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
 	private boolean disponible;
 	
@@ -43,7 +43,7 @@ public class Livre {
 		return status;
 	}
 
-	public Date getDateEmprunt() {
+	public LocalDate getDateEmprunt() {
 		return dateEmprunt;
 	}
 
@@ -76,8 +76,8 @@ public class Livre {
 		this.status = status;
 	}
 
-	public void setDateEmprunt(Date dateEmprunt) {
-		this.dateEmprunt = dateEmprunt;
+	public void setDateEmprunt(LocalDate localDate) {
+		this.dateEmprunt = localDate;
 	}
 
 	public void setDisponible(boolean disponible) {
@@ -90,7 +90,7 @@ public class Livre {
 
 	// Constructeur
 	
-	public Livre(String auteur, String titre, int nbPages, double prix, Date dateEmprunt, boolean diponible) {
+	public Livre(String auteur, String titre, int nbPages, double prix, LocalDate dateEmprunt, boolean diponible) {
 		this.auteur = auteur;
 		this.titre = titre;
 		this.nbPages = nbPages;
@@ -104,7 +104,7 @@ public class Livre {
 	}
 
 	public Livre(String auteur, String titre, int nbPages) {
-		this(auteur, titre, nbPages, -1, new Date(), true);
+		this(auteur, titre, nbPages, -1, null, true);
 	}
 
 	public Livre() {
@@ -117,7 +117,7 @@ public class Livre {
 	@Override
 	public String toString() {
 		return "\nLIVRE" + "\nLe titre est : "+ titre + "\nL'auteur est : " + auteur + "\nLe nbPages est : " + nbPages + "\nLe prix est : " + prix
-				+ "\nLa date d'emprunt est : " + sdf.format(dateEmprunt) + "\nLa disponibilité : " + status.getStatut();
+				+ "\nLa date d'emprunt est : " + dtf.format(dateEmprunt) + "\nLa disponibilité : " + status.getStatut();
 	}
 	
 	
