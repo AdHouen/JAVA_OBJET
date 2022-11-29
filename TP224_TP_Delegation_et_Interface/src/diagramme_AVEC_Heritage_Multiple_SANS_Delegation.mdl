@@ -246,10 +246,6 @@
 		quid       	"6385F310009A"
 		superclasses 	(list inheritance_relationship_list
 		    (object Inheritance_Relationship
-			quid       	"6385F50E013F"
-			supplier   	"Logical View::VehiculeMotorise"
-			quidu      	"6385E719009A")
-		    (object Inheritance_Relationship
 			quid       	"6385F57F0074"
 			supplier   	"Logical View::VehiculeVolant"
 			quidu      	"6385E6BA017E")
@@ -1663,7 +1659,231 @@
 			vertices   	(list Points
 			    (4468, 1809)
 			    (4468, 1327)))
-		    (object InheritView "" @62
+		    (object InheritTreeView "" @62
+			location   	(2191, 1720)
+			line_color 	3342489
+			fill_color 	13434879
+			supplier   	@19
+			vertices   	(list Points
+			    (2191, 1720)
+			    (2191, 1630)))
+		    (object InheritView "" @63
+			stereotype 	TRUE
+			line_color 	16776960
+			quidu      	"6385F7F00348"
+			client     	@32
+			supplier   	@19
+			vertices   	(list Points
+			    (2874, 1939)
+			    (2874, 1720))
+			line_style 	3
+			origin_attachment 	(2874, 1939)
+			terminal_attachment 	(2874, 1720)
+			drawSupplier 	@62)
+		    (object InheritView "" @64
+			stereotype 	TRUE
+			line_color 	16776960
+			quidu      	"6385F7F60215"
+			client     	@33
+			supplier   	@19
+			vertices   	(list Points
+			    (3381, 1943)
+			    (3381, 1720))
+			line_style 	3
+			origin_attachment 	(3381, 1943)
+			terminal_attachment 	(3381, 1720)
+			drawSupplier 	@62)
+		    (object InheritTreeView "" @65
+			location   	(2553, 1568)
+			line_color 	3342489
+			fill_color 	13434879
+			supplier   	@6
+			vertices   	(list Points
+			    (2553, 1568)
+			    (2553, 1312)))
+		    (object InheritView "" @66
+			stereotype 	TRUE
+			line_color 	33023
+			quidu      	"6385F83E0352"
+			client     	@35
+			supplier   	@6
+			vertices   	(list Points
+			    (4265, 1937)
+			    (4265, 1568))
+			line_style 	3
+			origin_attachment 	(4265, 1937)
+			terminal_attachment 	(4265, 1568)
+			drawSupplier 	@65)
+		    (object InheritView "" @67
+			stereotype 	TRUE
+			line_color 	33023
+			quidu      	"6385F8370281"
+			client     	@34
+			supplier   	@6
+			vertices   	(list Points
+			    (3709, 1942)
+			    (3709, 1568))
+			line_style 	3
+			origin_attachment 	(3709, 1942)
+			terminal_attachment 	(3709, 1568)
+			drawSupplier 	@65)
+		    (object InheritTreeView "" @68
+			location   	(3846, 1859)
+			line_color 	3342489
+			fill_color 	13434879
+			supplier   	@8
+			vertices   	(list Points
+			    (3846, 1859)
+			    (3846, 1324)))
+		    (object InheritView "" @69
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"6385F4F90034"
+			client     	@27
+			supplier   	@8
+			vertices   	(list Points
+			    (1109, 1943)
+			    (1109, 1859))
+			line_style 	3
+			origin_attachment 	(1109, 1943)
+			terminal_attachment 	(1109, 1859)
+			drawSupplier 	@68)
+		    (object InheritView "" @70
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"6385F504027E"
+			client     	@28
+			supplier   	@8
+			vertices   	(list Points
+			    (1468, 1949)
+			    (1468, 1859))
+			line_style 	3
+			origin_attachment 	(1468, 1949)
+			terminal_attachment 	(1468, 1859)
+			drawSupplier 	@68)
+		    (object InheritView "" @71
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"6385F512015C"
+			client     	@30
+			supplier   	@8
+			vertices   	(list Points
+			    (2184, 1943)
+			    (2184, 1859))
+			line_style 	3
+			origin_attachment 	(2184, 1943)
+			terminal_attachment 	(2184, 1859)
+			drawSupplier 	@68)
+		    (object InheritView "" @72
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"6385F51902CA"
+			client     	@32
+			supplier   	@8
+			vertices   	(list Points
+			    (2996, 1939)
+			    (2996, 1859))
+			line_style 	3
+			origin_attachment 	(2996, 1939)
+			terminal_attachment 	(2996, 1859)
+			drawSupplier 	@68)
+		    (object InheritView "" @73
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"6385F51D0381"
+			client     	@33
+			supplier   	@8
+			vertices   	(list Points
+			    (3424, 1943)
+			    (3424, 1859))
+			line_style 	3
+			origin_attachment 	(3424, 1943)
+			terminal_attachment 	(3424, 1859)
+			drawSupplier 	@68)
+		    (object InheritView "" @74
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"6385F51501BB"
+			client     	@31
+			supplier   	@8
+			vertices   	(list Points
+			    (2624, 1939)
+			    (2624, 1859))
+			line_style 	3
+			origin_attachment 	(2624, 1939)
+			terminal_attachment 	(2624, 1859)
+			drawSupplier 	@68)
+		    (object InheritView "" @75
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"6385F525003C"
+			client     	@34
+			supplier   	@8
+			vertices   	(list Points
+			    (3902, 1943)
+			    (3902, 1859))
+			line_style 	3
+			origin_attachment 	(3902, 1943)
+			terminal_attachment 	(3902, 1859)
+			drawSupplier 	@68)
+		    (object InheritView "" @76
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"6385F52C01F0"
+			client     	@36
+			supplier   	@8
+			vertices   	(list Points
+			    (4668, 1934)
+			    (4668, 1859))
+			line_style 	3
+			origin_attachment 	(4668, 1934)
+			terminal_attachment 	(4668, 1859)
+			drawSupplier 	@68)
+		    (object InheritView "" @77
+			stereotype 	TRUE
+			line_color 	16744576
+			quidu      	"6385F87A02E4"
+			client     	@36
+			supplier   	@7
+			vertices   	(list Points
+			    (4603, 1933)
+			    (3346, 1327))
+			line_style 	0)
+		    (object InheritTreeView "" @78
+			location   	(940, 1806)
+			line_color 	3342489
+			fill_color 	13434879
+			supplier   	@4
+			vertices   	(list Points
+			    (940, 1806)
+			    (940, 1315)))
+		    (object InheritView "" @79
+			stereotype 	TRUE
+			line_color 	8421440
+			quidu      	"6385F54F021D"
+			client     	@27
+			supplier   	@4
+			vertices   	(list Points
+			    (1019, 1943)
+			    (1019, 1806))
+			line_style 	3
+			origin_attachment 	(1019, 1943)
+			terminal_attachment 	(1019, 1806)
+			drawSupplier 	@78)
+		    (object InheritView "" @80
+			stereotype 	TRUE
+			line_color 	8421440
+			quidu      	"6385F57400F3"
+			client     	@28
+			supplier   	@4
+			vertices   	(list Points
+			    (1387, 1948)
+			    (1387, 1806))
+			line_style 	3
+			origin_attachment 	(1387, 1948)
+			terminal_attachment 	(1387, 1806)
+			drawSupplier 	@78)
+		    (object InheritView "" @81
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"6385F6B300FB"
@@ -1676,256 +1896,19 @@
 			origin_attachment 	(1834, 1945)
 			terminal_attachment 	(1834, 1809)
 			drawSupplier 	@61)
-		    (object InheritTreeView "" @63
-			location   	(940, 1806)
-			line_color 	3342489
-			fill_color 	13434879
-			supplier   	@4
-			vertices   	(list Points
-			    (940, 1806)
-			    (940, 1315)))
-		    (object InheritView "" @64
-			stereotype 	TRUE
-			line_color 	8421440
-			quidu      	"6385F54F021D"
-			client     	@27
-			supplier   	@4
-			vertices   	(list Points
-			    (1019, 1943)
-			    (1019, 1806))
-			line_style 	3
-			origin_attachment 	(1019, 1943)
-			terminal_attachment 	(1019, 1806)
-			drawSupplier 	@63)
-		    (object InheritView "" @65
-			stereotype 	TRUE
-			line_color 	8421440
-			quidu      	"6385F57400F3"
-			client     	@28
-			supplier   	@4
-			vertices   	(list Points
-			    (1387, 1948)
-			    (1387, 1806))
-			line_style 	3
-			origin_attachment 	(1387, 1948)
-			terminal_attachment 	(1387, 1806)
-			drawSupplier 	@63)
-		    (object InheritView "" @66
+		    (object InheritView "" @82
 			stereotype 	TRUE
 			line_color 	8421440
 			quidu      	"6385F57F0074"
 			client     	@29
 			supplier   	@4
 			vertices   	(list Points
-			    (1778, 1946)
-			    (1778, 1806))
+			    (1728, 1945)
+			    (1728, 1806))
 			line_style 	3
-			origin_attachment 	(1778, 1946)
-			terminal_attachment 	(1778, 1806)
-			drawSupplier 	@63)
-		    (object InheritTreeView "" @67
-			location   	(2191, 1720)
-			line_color 	3342489
-			fill_color 	13434879
-			supplier   	@19
-			vertices   	(list Points
-			    (2191, 1720)
-			    (2191, 1630)))
-		    (object InheritView "" @68
-			stereotype 	TRUE
-			line_color 	16776960
-			quidu      	"6385F7F00348"
-			client     	@32
-			supplier   	@19
-			vertices   	(list Points
-			    (2874, 1939)
-			    (2874, 1720))
-			line_style 	3
-			origin_attachment 	(2874, 1939)
-			terminal_attachment 	(2874, 1720)
-			drawSupplier 	@67)
-		    (object InheritView "" @69
-			stereotype 	TRUE
-			line_color 	16776960
-			quidu      	"6385F7F60215"
-			client     	@33
-			supplier   	@19
-			vertices   	(list Points
-			    (3381, 1943)
-			    (3381, 1720))
-			line_style 	3
-			origin_attachment 	(3381, 1943)
-			terminal_attachment 	(3381, 1720)
-			drawSupplier 	@67)
-		    (object InheritTreeView "" @70
-			location   	(2553, 1568)
-			line_color 	3342489
-			fill_color 	13434879
-			supplier   	@6
-			vertices   	(list Points
-			    (2553, 1568)
-			    (2553, 1312)))
-		    (object InheritView "" @71
-			stereotype 	TRUE
-			line_color 	33023
-			quidu      	"6385F83E0352"
-			client     	@35
-			supplier   	@6
-			vertices   	(list Points
-			    (4265, 1937)
-			    (4265, 1568))
-			line_style 	3
-			origin_attachment 	(4265, 1937)
-			terminal_attachment 	(4265, 1568)
-			drawSupplier 	@70)
-		    (object InheritView "" @72
-			stereotype 	TRUE
-			line_color 	33023
-			quidu      	"6385F8370281"
-			client     	@34
-			supplier   	@6
-			vertices   	(list Points
-			    (3709, 1942)
-			    (3709, 1568))
-			line_style 	3
-			origin_attachment 	(3709, 1942)
-			terminal_attachment 	(3709, 1568)
-			drawSupplier 	@70)
-		    (object InheritTreeView "" @73
-			location   	(3846, 1859)
-			line_color 	3342489
-			fill_color 	13434879
-			supplier   	@8
-			vertices   	(list Points
-			    (3846, 1859)
-			    (3846, 1324)))
-		    (object InheritView "" @74
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"6385F4F90034"
-			client     	@27
-			supplier   	@8
-			vertices   	(list Points
-			    (1109, 1943)
-			    (1109, 1859))
-			line_style 	3
-			origin_attachment 	(1109, 1943)
-			terminal_attachment 	(1109, 1859)
-			drawSupplier 	@73)
-		    (object InheritView "" @75
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"6385F504027E"
-			client     	@28
-			supplier   	@8
-			vertices   	(list Points
-			    (1468, 1949)
-			    (1468, 1859))
-			line_style 	3
-			origin_attachment 	(1468, 1949)
-			terminal_attachment 	(1468, 1859)
-			drawSupplier 	@73)
-		    (object InheritView "" @76
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"6385F512015C"
-			client     	@30
-			supplier   	@8
-			vertices   	(list Points
-			    (2184, 1943)
-			    (2184, 1859))
-			line_style 	3
-			origin_attachment 	(2184, 1943)
-			terminal_attachment 	(2184, 1859)
-			drawSupplier 	@73)
-		    (object InheritView "" @77
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"6385F51902CA"
-			client     	@32
-			supplier   	@8
-			vertices   	(list Points
-			    (2996, 1939)
-			    (2996, 1859))
-			line_style 	3
-			origin_attachment 	(2996, 1939)
-			terminal_attachment 	(2996, 1859)
-			drawSupplier 	@73)
-		    (object InheritView "" @78
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"6385F51D0381"
-			client     	@33
-			supplier   	@8
-			vertices   	(list Points
-			    (3424, 1943)
-			    (3424, 1859))
-			line_style 	3
-			origin_attachment 	(3424, 1943)
-			terminal_attachment 	(3424, 1859)
-			drawSupplier 	@73)
-		    (object InheritView "" @79
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"6385F51501BB"
-			client     	@31
-			supplier   	@8
-			vertices   	(list Points
-			    (2624, 1939)
-			    (2624, 1859))
-			line_style 	3
-			origin_attachment 	(2624, 1939)
-			terminal_attachment 	(2624, 1859)
-			drawSupplier 	@73)
-		    (object InheritView "" @80
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"6385F50E013F"
-			client     	@29
-			supplier   	@8
-			vertices   	(list Points
-			    (1778, 1946)
-			    (1778, 1859))
-			line_style 	3
-			origin_attachment 	(1778, 1946)
-			terminal_attachment 	(1778, 1859)
-			drawSupplier 	@73)
-		    (object InheritView "" @81
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"6385F525003C"
-			client     	@34
-			supplier   	@8
-			vertices   	(list Points
-			    (3902, 1943)
-			    (3902, 1859))
-			line_style 	3
-			origin_attachment 	(3902, 1943)
-			terminal_attachment 	(3902, 1859)
-			drawSupplier 	@73)
-		    (object InheritView "" @82
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"6385F52C01F0"
-			client     	@36
-			supplier   	@8
-			vertices   	(list Points
-			    (4668, 1934)
-			    (4668, 1859))
-			line_style 	3
-			origin_attachment 	(4668, 1934)
-			terminal_attachment 	(4668, 1859)
-			drawSupplier 	@73)
-		    (object InheritView "" @83
-			stereotype 	TRUE
-			line_color 	16744576
-			quidu      	"6385F87A02E4"
-			client     	@36
-			supplier   	@7
-			vertices   	(list Points
-			    (4603, 1933)
-			    (3346, 1327))
-			line_style 	0)))))
+			origin_attachment 	(1728, 1945)
+			terminal_attachment 	(1728, 1806)
+			drawSupplier 	@78)))))
     root_subsystem 	(object SubSystem "Component View"
 	quid       	"6385E66C02D0"
 	physical_models 	(list unit_reference_list
