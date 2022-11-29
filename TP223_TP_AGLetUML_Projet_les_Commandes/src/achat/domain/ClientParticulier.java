@@ -35,6 +35,7 @@ public class ClientParticulier extends Client {
 	public void setAdressePersonnelle(String adressePersonnelle) {
 		this.adressePersonnelle = adressePersonnelle;
 	}
+
 	 
 	
 }

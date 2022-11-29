@@ -55,7 +55,9 @@ public void setQte(Integer qte) {
 	this.qte = qte;
 }
 
-
+public double getPrix() {
+	return this.getArticle().getPrixUnitaire()*qte;
+}
 
    
 }

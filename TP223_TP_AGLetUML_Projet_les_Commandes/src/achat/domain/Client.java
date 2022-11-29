@@ -5,6 +5,8 @@ package achat.domain;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+import javax.sql.rowset.CachedRowSet;
+
 public class Client extends Personne {
 	private int idClient;
 
@@ -30,10 +32,33 @@ public class Client extends Personne {
 		this.idClient = idClient;
 		this.commandes = commandes;
 	}
+	// QUestion 3.2
+	// Methode getChiffreAffaire codé
 
 	public double getChiffreAffaire() {
-		return 0.;
+		
+		double chiffreA = 0.;
+		for (Commande commande : commandes) {
+			chiffreA += (commande.getArticle().getPrixUnitaire()*commande.getQte());
+			
+		}
+		
+		return chiffreA;
 	}
+	
+	// Question 3.3
+	// NOUVELLE Methode getChiffreAffaire (évolution avec la methode getPrix
+
+		public double getChiffreAffaire2() {
+			
+			double chiffreA = 0.;
+			for (Commande commande : commandes) {
+				chiffreA += (commande.getPrix());
+				
+			}
+			
+			return chiffreA;
+		}
 
 	public static void main(String[] args) {
 		Article clavier = new Article(412, "clavier super cool", 37, EnumStatusStock.PLEIN50);
@@ -49,16 +74,22 @@ public class Client extends Personne {
 		
 		ClientParticulier totoClientParticulier = new ClientParticulier("BOUBOU", "Toto" , LocalDate.of(1989, 11, 13));
 		
+		totoClientParticulier.addCommande(cdeNoel);
+		totoClientParticulier.addCommande(cdePaques);
 		
-		System.out.println("Voici le chiffre d'affaire de toto : " + totoClientParticulier.getChiffreAffaire());
+		// Test methode getChiffreAffaire avec la méthode codé
+		
+		System.out.println("Voici le chiffre d'affaire de toto avec la methode getChiffreAffaire : " + totoClientParticulier.getChiffreAffaire() + " €");
+		
+		// Test methode getPrix() avec la méthode codé dans la Commande
+		
+		System.out.println("\nVoici le chiffre d'affaire de toto avec la methode getPrix : " + totoClientParticulier.getChiffreAffaire2() + " €");
 		
 		
-		// CA pas encore codé
 		
-		float cumul = 0;
-		for (Commande cde : totoClientParticulier.getCommandes()) {
-			
-		}
+		
+		
+		
 		
 		
 
