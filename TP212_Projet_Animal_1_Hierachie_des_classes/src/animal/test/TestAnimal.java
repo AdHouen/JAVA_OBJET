@@ -47,7 +47,7 @@ public class TestAnimal {
 		System.out.println();
 		
 		Animal [] animaux3 = { new Animal ("Truc"), new Animal (), new Chien ("Médor"), new Homme (), new Homme ("Robert")};
-		Arrays.asList(animaux3).forEach(x-> System.out.println(x));
+		Arrays.asList(animaux3).forEach(x-> System.out.println(x)); 
 		
 		
 			

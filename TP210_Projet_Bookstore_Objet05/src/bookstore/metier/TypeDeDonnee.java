@@ -14,8 +14,11 @@ public class TypeDeDonnee {
 		}
 
 	public void setAnnee(int annee) {
-			this.annee = annee;
-		}
+		 if (annee > 0) {
+           this.annee = annee;
+       }
+       throw new IllegalArgumentException("ERROR : L'année n'est pas un entier supérieur à 0");
+   	}
 
 //	public static TypeDeDonnee donneeAnnee(int annee) {
 //        if (annee > 0) {

@@ -1662,16 +1662,35 @@
 			origin_attachment 	(3709, 1942)
 			terminal_attachment 	(3709, 1628)
 			drawSupplier 	@58)
-		    (object InheritView "" @61
-			stereotype 	TRUE
-			line_color 	16744576
-			quidu      	"6385F87A02E4"
-			client     	@27
-			supplier   	@6
-			vertices   	(list Points
-			    (4603, 1933)
-			    (3346, 1327))
-			line_style 	0)
+		    (object ClassView "Class" "Logical View::TypeMotorisation" @61
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(4293, 678)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@61
+			    location   	(4068, 656)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	450
+			    justify    	0
+			    label      	"TypeMotorisation")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"6385FED90026"
+			width      	468
+			height     	69
+			annotation 	8)
 		    (object ClassView "Class" "Logical View::Vehicule" @62
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
@@ -1771,36 +1790,7 @@
 			    (2763, 643)
 			    (2315, 391))
 			line_style 	0)
-		    (object ClassView "Class" "Logical View::TypeMotorisation" @69
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(4293, 678)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@69
-			    location   	(4068, 656)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	450
-			    justify    	0
-			    label      	"TypeMotorisation")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"6385FED90026"
-			width      	468
-			height     	69
-			annotation 	8)
-		    (object AssociationViewNew "$UNNAMED$0" @70
+		    (object AssociationViewNew "$UNNAMED$0" @69
 			location   	(3587, 678)
 			font       	(object Font
 			    size       	10
@@ -1815,8 +1805,8 @@
 			line_color 	3342489
 			quidu      	"6385FEF403CB"
 			roleview_list 	(list RoleViews
-			    (object RoleView "typeMotorisation" @71
-				Parent_View 	@70
+			    (object RoleView "typeMotorisation" @70
+				Parent_View 	@69
 				location   	(764, 0)
 				font       	(object Font
 				    size       	10
@@ -1827,8 +1817,8 @@
 				    strike     	FALSE
 				    color      	0
 				    default_color 	TRUE)
-				label      	(object SegLabel @72
-				    Parent_View 	@71
+				label      	(object SegLabel @71
+				    Parent_View 	@70
 				    location   	(3880, 622)
 				    font       	(object Font
 					size       	10
@@ -1851,14 +1841,14 @@
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"6385FEF50318"
-				client     	@70
-				supplier   	@69
+				client     	@69
+				supplier   	@61
 				vertices   	(list Points
 				    (3587, 678)
 				    (4058, 678))
 				line_style 	0
-				label      	(object SegLabel @73
-				    Parent_View 	@71
+				label      	(object SegLabel @72
+				    Parent_View 	@70
 				    location   	(4010, 732)
 				    font       	(object Font
 					size       	10
@@ -1878,37 +1868,49 @@
 				    pctDist    	0.900000
 				    height     	54
 				    orientation 	1))
-			    (object RoleView "$UNNAMED$1" @74
-				Parent_View 	@70
+			    (object RoleView "$UNNAMED$1" @73
+				Parent_View 	@69
 				location   	(764, 0)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"6385FEF5031A"
-				client     	@70
+				client     	@69
 				supplier   	@62
 				vertices   	(list Points
 				    (3587, 678)
 				    (3116, 678))
 				line_style 	0)))
-		    (object InheritView "" @75
+		    (object InheritView "" @74
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"6385FFB900F1"
 			client     	@7
-			supplier   	@69
+			supplier   	@61
 			vertices   	(list Points
 			    (3977, 967)
 			    (4254, 712))
 			line_style 	0)
-		    (object InheritView "" @76
+		    (object InheritView "" @75
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"6385FFBC01C2"
 			client     	@8
-			supplier   	@69
+			supplier   	@61
 			vertices   	(list Points
 			    (4522, 958)
 			    (4321, 712))
+			line_style 	0)
+		    (object InheritView "" @76
+			stereotype 	TRUE
+			line_color 	16744576
+			quidu      	"6385F87A02E4"
+			client     	@27
+			supplier   	@6
+			vertices   	(list Points
+			    (4668, 1933)
+			    (4671, 1475)
+			    (3268, 1472)
+			    (3271, 1327))
 			line_style 	0)))))
     root_subsystem 	(object SubSystem "Component View"
 	quid       	"6385E66C02D0"

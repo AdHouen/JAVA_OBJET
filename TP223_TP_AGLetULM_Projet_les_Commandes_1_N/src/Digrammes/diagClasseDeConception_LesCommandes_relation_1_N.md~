@@ -465,12 +465,16 @@
 				operations 	(list Operations
 				    (object Operation "getPrix"
 					quid       	"6385E5040032"
+					result     	"double"
 					concurrency 	"Sequential"
 					opExportControl 	"Public"
 					uid        	0))
 				class_attributes 	(list class_attribute_list
 				    (object ClassAttribute "qte"
 					quid       	"637F76CC027C"
+					type       	"Integer")
+				    (object ClassAttribute "noCommande"
+					quid       	"638720960190"
 					type       	"Integer")))
 			    (object Class "IComportement"
 				quid       	"6385DD5C038B"
@@ -522,7 +526,7 @@
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
-		origin_x   	891
+		origin_x   	4056
 		origin_y   	0
 		items      	(list diagram_item_list
 		    (object ClassView "Class" "Logical View::achat::domain::Personne" @1
@@ -872,6 +876,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
+			ShowOperationSignature 	TRUE
 			location   	(4480, 656)
 			font       	(object Font
 			    size       	10
@@ -1300,6 +1305,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
+			ShowOperationSignature 	TRUE
 			location   	(3408, 1360)
 			font       	(object Font
 			    size       	10
@@ -1337,8 +1343,8 @@
 			    icon_style 	"Icon"
 			    fill_color 	13434879
 			    anchor     	2
-			    nlines     	3
-			    max_width  	250
+			    nlines     	4
+			    max_width  	443
 			    justify    	1)
 			width      	469
 			height     	500
@@ -1372,7 +1378,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @30
 				    Parent_View 	@29
-				    location   	(3074, 1319)
+				    location   	(3074, 1320)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -1402,7 +1408,7 @@
 				line_style 	0
 				label      	(object SegLabel @31
 				    Parent_View 	@29
-				    location   	(3131, 1414)
+				    location   	(3130, 1414)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -1492,7 +1498,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @36
 				    Parent_View 	@35
-				    location   	(4065, 1319)
+				    location   	(4064, 1320)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"

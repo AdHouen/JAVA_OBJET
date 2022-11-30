@@ -1,6 +1,5 @@
 package bookstore.metier;
 
-import java.io.UTFDataFormatException;
 import java.text.DecimalFormat;
 
 public class Livre {
@@ -132,7 +131,7 @@ public class Livre {
 			
 		}
 		return this.getAuteur();
-	}
+	} 
 	
 	
 	

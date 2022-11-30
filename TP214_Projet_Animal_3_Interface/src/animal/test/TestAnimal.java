@@ -112,6 +112,8 @@ public class TestAnimal {
 		animauxComparables.add(new Homme("Monique"));
 		animauxComparables.add(new Homme("Philippe"));
 		animauxComparables.add(new Homme("Robert"));
+		
+		
 //		animauxComparables.forEach(System.out::println);
 
         for (Animal animal : animaux) {

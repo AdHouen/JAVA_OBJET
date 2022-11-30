@@ -1,6 +1,7 @@
 package bookstore.test;
 
 import bookstore.metier.Livre;
+import bookstore.metier.Comptable;
 
 public class TestComptable {
 	public static void main(String[] args) {
@@ -12,14 +13,15 @@ public class TestComptable {
 		Livre monLivre5 = new Livre("Philippe Hello", "C'est toi", 1200, 35.13);
 		
 		
+		
+		
 		System.out.printf("Total de %.2f €\n",Livre.getTotalPrix());
 		
 		monLivre3.setPrix(15.24);
 		System.out.printf("Total de %.2f €\n",Livre.getTotalPrix());
 		
 		
-		
-		
+		Comptable c1 = ;
 		
 		
 		

@@ -93,6 +93,7 @@ public class TestLivre {
 		//  Retrouver le Livre par l'utilisateur
 		System.out.println("\nRetrouver le Livre par l'utilisateur\n");
 		System.out.println(utilisateur1.findTitreLivreCourant());
+		
 		System.out.println("\nRetrouver l'utilisateur par le Livre\n");
 		System.out.println(monLivre1.findUtilisateurCourant()); 
 		

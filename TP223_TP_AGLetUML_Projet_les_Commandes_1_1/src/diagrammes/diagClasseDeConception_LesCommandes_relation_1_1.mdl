@@ -164,7 +164,11 @@
 			exportControl 	"Public"
 			logical_models 	(list unit_reference_list
 			    (object Class "Article"
-				attributes 	(list Attribute_Set)
+				attributes 	(list Attribute_Set
+				    (object Attribute
+					tool       	"Java"
+					name       	"cg_style"
+					value      	"Default_EJB"))
 				quid       	"637F784A016B"
 				realized_interfaces 	(list realize_rel_list
 				    (object Realize_Relationship
@@ -477,7 +481,7 @@
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
-		origin_x   	0
+		origin_x   	3038
 		origin_y   	0
 		items      	(list diagram_item_list
 		    (object ClassView "Class" "Logical View::achat::domain::Personne" @1
@@ -659,7 +663,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@5
-			    location   	(3234, 1962)
+			    location   	(3234, 1912)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	701
@@ -680,7 +684,7 @@
 			quidu      	"637F77CE02ED"
 			compartment 	(object Compartment
 			    Parent_View 	@5
-			    location   	(3234, 2067)
+			    location   	(3234, 2017)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -1041,7 +1045,7 @@
 			    default_color 	TRUE)
 			label      	(object SegLabel @21
 			    Parent_View 	@20
-			    location   	(3126, 1302)
+			    location   	(3127, 1302)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -1186,7 +1190,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@27
-			    location   	(2216, 2054)
+			    location   	(2216, 2004)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	688
@@ -1207,7 +1211,7 @@
 			quidu      	"637F7A1D009C"
 			compartment 	(object Compartment
 			    Parent_View 	@27
-			    location   	(2216, 2159)
+			    location   	(2216, 2109)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"

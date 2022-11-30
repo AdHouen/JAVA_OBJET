@@ -725,7 +725,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(1968, 3159)
+			location   	(1971, 3156)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -737,7 +737,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@8
-			    location   	(1690, 3040)
+			    location   	(1693, 3037)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	557
@@ -745,7 +745,7 @@
 			    label      	"VehiculeMotorise")
 			stereotype 	(object ItemLabel
 			    Parent_View 	@8
-			    location   	(1690, 2990)
+			    location   	(1693, 2987)
 			    fill_color 	13434879
 			    anchor     	10
 			    nlines     	1
@@ -764,7 +764,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(3846, 3147)
+			location   	(3819, 3186)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -776,19 +776,19 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@9
-			    location   	(3577, 3044)
+			    location   	(3525, 3045)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	538
+			    max_width  	588
 			    justify    	0
 			    label      	"VehiculeNonMotorise")
 			stereotype 	(object ItemLabel
 			    Parent_View 	@9
-			    location   	(3577, 2994)
+			    location   	(3525, 2995)
 			    fill_color 	13434879
 			    anchor     	10
 			    nlines     	1
-			    max_width  	538
+			    max_width  	588
 			    justify    	0
 			    label      	"<<Interface>>")
 			icon       	"Interface"
@@ -796,8 +796,8 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"6385E7310271"
-			width      	556
-			height     	331
+			width      	606
+			height     	406
 			annotation 	8)
 		    (object ClassView "Class" "Logical View::Cheval" @10
 			ShowCompartmentStereotypes 	TRUE
@@ -1661,22 +1661,6 @@
 			    (2315, 391))
 			line_style 	0)
 		    (object InheritTreeView "" @55
-			location   	(1475, 1753)
-			line_color 	3342489
-			fill_color 	13434879
-			supplier   	@14
-			vertices   	(list Points
-			    (1475, 1753)
-			    (1475, 1618)))
-		    (object InheritTreeView "" @56
-			location   	(2191, 1720)
-			line_color 	3342489
-			fill_color 	13434879
-			supplier   	@16
-			vertices   	(list Points
-			    (2191, 1720)
-			    (2191, 1630)))
-		    (object InheritTreeView "" @57
 			location   	(2553, 1568)
 			line_color 	3342489
 			fill_color 	13434879
@@ -1684,7 +1668,7 @@
 			vertices   	(list Points
 			    (2553, 1568)
 			    (2553, 1312)))
-		    (object InheritView "" @58
+		    (object InheritView "" @56
 			stereotype 	TRUE
 			line_color 	33023
 			quidu      	"6385F83E0352"
@@ -1696,8 +1680,8 @@
 			line_style 	3
 			origin_attachment 	(4265, 1937)
 			terminal_attachment 	(4265, 1568)
-			drawSupplier 	@57)
-		    (object InheritView "" @59
+			drawSupplier 	@55)
+		    (object InheritView "" @57
 			stereotype 	TRUE
 			line_color 	33023
 			quidu      	"6385F8370281"
@@ -1709,8 +1693,8 @@
 			line_style 	3
 			origin_attachment 	(3709, 1942)
 			terminal_attachment 	(3709, 1568)
-			drawSupplier 	@57)
-		    (object InheritView "" @60
+			drawSupplier 	@55)
+		    (object InheritView "" @58
 			stereotype 	TRUE
 			line_color 	16744576
 			quidu      	"6385F87A02E4"
@@ -1720,7 +1704,7 @@
 			    (4603, 1933)
 			    (3346, 1327))
 			line_style 	0)
-		    (object InheritTreeView "" @61
+		    (object InheritTreeView "" @59
 			location   	(940, 1806)
 			line_color 	3342489
 			fill_color 	13434879
@@ -1728,7 +1712,7 @@
 			vertices   	(list Points
 			    (940, 1806)
 			    (940, 1315)))
-		    (object InheritView "" @62
+		    (object InheritView "" @60
 			stereotype 	TRUE
 			line_color 	8421440
 			quidu      	"6385F54F021D"
@@ -1740,8 +1724,8 @@
 			line_style 	3
 			origin_attachment 	(1019, 1943)
 			terminal_attachment 	(1019, 1806)
-			drawSupplier 	@61)
-		    (object InheritView "" @63
+			drawSupplier 	@59)
+		    (object InheritView "" @61
 			stereotype 	TRUE
 			line_color 	8421440
 			quidu      	"6385F57400F3"
@@ -1753,8 +1737,8 @@
 			line_style 	3
 			origin_attachment 	(1387, 1948)
 			terminal_attachment 	(1387, 1806)
-			drawSupplier 	@61)
-		    (object InheritView "" @64
+			drawSupplier 	@59)
+		    (object InheritView "" @62
 			stereotype 	TRUE
 			line_color 	8421440
 			quidu      	"6385F57F0074"
@@ -1766,8 +1750,16 @@
 			line_style 	3
 			origin_attachment 	(1728, 1945)
 			terminal_attachment 	(1728, 1806)
-			drawSupplier 	@61)
-		    (object InheritView "" @65
+			drawSupplier 	@59)
+		    (object InheritTreeView "" @63
+			location   	(1475, 1753)
+			line_color 	3342489
+			fill_color 	13434879
+			supplier   	@14
+			vertices   	(list Points
+			    (1475, 1753)
+			    (1475, 1618)))
+		    (object InheritView "" @64
 			stereotype 	TRUE
 			line_color 	65280
 			quidu      	"6385F77B03C1"
@@ -1779,8 +1771,8 @@
 			line_style 	3
 			origin_attachment 	(2121, 1942)
 			terminal_attachment 	(2121, 1753)
-			drawSupplier 	@55)
-		    (object InheritView "" @66
+			drawSupplier 	@63)
+		    (object InheritView "" @65
 			stereotype 	TRUE
 			line_color 	65280
 			quidu      	"6385F780031C"
@@ -1792,7 +1784,15 @@
 			line_style 	3
 			origin_attachment 	(2559, 1939)
 			terminal_attachment 	(2559, 1753)
-			drawSupplier 	@55)
+			drawSupplier 	@63)
+		    (object InheritTreeView "" @66
+			location   	(2191, 1720)
+			line_color 	3342489
+			fill_color 	13434879
+			supplier   	@16
+			vertices   	(list Points
+			    (2191, 1720)
+			    (2191, 1630)))
 		    (object InheritView "" @67
 			stereotype 	TRUE
 			line_color 	16776960
@@ -1805,7 +1805,7 @@
 			line_style 	3
 			origin_attachment 	(2874, 1939)
 			terminal_attachment 	(2874, 1720)
-			drawSupplier 	@56)
+			drawSupplier 	@66)
 		    (object InheritView "" @68
 			stereotype 	TRUE
 			line_color 	16776960
@@ -1818,7 +1818,7 @@
 			line_style 	3
 			origin_attachment 	(3381, 1943)
 			terminal_attachment 	(3381, 1720)
-			drawSupplier 	@56)
+			drawSupplier 	@66)
 		    (object RealizeView "" @69
 			stereotype 	TRUE
 			line_color 	3342489
@@ -1827,8 +1827,8 @@
 			supplier   	@8
 			vertices   	(list Points
 			    (1033, 2011)
-			    (1294, 2638)
-			    (1733, 2977))
+			    (1293, 2637)
+			    (1733, 2974))
 			line_style 	0)
 		    (object RealizeView "" @70
 			stereotype 	TRUE
@@ -1839,7 +1839,7 @@
 			vertices   	(list Points
 			    (1436, 2017)
 			    (1625, 2578)
-			    (1860, 2977))
+			    (1861, 2974))
 			line_style 	0)
 		    (object RealizeView "" @71
 			stereotype 	TRUE
@@ -1850,7 +1850,7 @@
 			vertices   	(list Points
 			    (2172, 2011)
 			    (2040, 2434)
-			    (1986, 2977))
+			    (1988, 2974))
 			line_style 	0)
 		    (object RealizeView "" @72
 			stereotype 	TRUE
@@ -1861,7 +1861,7 @@
 			vertices   	(list Points
 			    (2558, 2008)
 			    (2368, 2522)
-			    (2080, 2977))
+			    (2083, 2974))
 			line_style 	0)
 		    (object RealizeView "" @73
 			stereotype 	TRUE
@@ -1872,7 +1872,7 @@
 			vertices   	(list Points
 			    (2935, 2008)
 			    (2678, 2703)
-			    (2248, 2977))
+			    (2250, 2974))
 			line_style 	0)
 		    (object RealizeView "" @74
 			stereotype 	TRUE
@@ -1883,7 +1883,7 @@
 			vertices   	(list Points
 			    (3366, 2011)
 			    (3099, 2703)
-			    (2255, 3042))
+			    (2258, 3039))
 			line_style 	0)
 		    (object RealizeView "" @75
 			stereotype 	TRUE
@@ -1893,8 +1893,8 @@
 			supplier   	@8
 			vertices   	(list Points
 			    (3800, 2011)
-			    (3412, 2791)
-			    (2255, 3084))
+			    (3412, 2790)
+			    (2258, 3081))
 			line_style 	0)
 		    (object RealizeView "" @76
 			stereotype 	TRUE
@@ -1905,7 +1905,7 @@
 			vertices   	(list Points
 			    (1790, 2014)
 			    (2046, 2740)
-			    (3567, 3083))
+			    (3515, 3109))
 			line_style 	0)
 		    (object RealizeView "" @77
 			stereotype 	TRUE
@@ -1915,7 +1915,7 @@
 			supplier   	@9
 			vertices   	(list Points
 			    (4252, 2005)
-			    (3904, 2981))
+			    (3892, 2982))
 			line_style 	0)
 		    (object RealizeView "" @78
 			stereotype 	TRUE
@@ -1926,7 +1926,7 @@
 			vertices   	(list Points
 			    (4653, 1996)
 			    (4371, 2671)
-			    (2255, 3099))
+			    (2258, 3096))
 			line_style 	0)))))
     root_subsystem 	(object SubSystem "Component View"
 	quid       	"6385E66C02D0"

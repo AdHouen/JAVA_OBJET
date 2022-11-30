@@ -23,7 +23,7 @@ public class TestSetLivre {
 			
 		}
 		
-		///// N'affiche pas 2 livres au meme nombre de page, pour lui c'est la meme chose
+		// N'affiche pas 2 livres au meme nombre de page, pour lui c'est la meme chose
 		
 		
 	}

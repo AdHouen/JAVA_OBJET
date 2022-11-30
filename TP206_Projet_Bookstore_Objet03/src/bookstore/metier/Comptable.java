@@ -28,4 +28,10 @@ public class Comptable {
 
 	}
 
+	private Comptable() {
+		super();
+	} 
+	
+	
+
 }

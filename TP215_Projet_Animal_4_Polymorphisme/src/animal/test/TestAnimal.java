@@ -45,6 +45,7 @@ public class TestAnimal {
  		Collections.sort(animauxList);
  		animauxList.forEach(System.out::println); // OU
 // 		animauxList.forEach(x->System.out.println(x)); 
+ 		
  		System.out.println();
  		System.out.println("Tableau trier dans l'ordre décroissant : ");
  		Collections.reverse(animauxList);
