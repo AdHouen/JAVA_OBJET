@@ -5,12 +5,10 @@ package achat.domain;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-import javax.sql.rowset.CachedRowSet;
-
 public class Client extends Personne {
 	private int idClient;
 
-	private ArrayList<Commande> commandes = new ArrayList<>(); // association 1_N
+	private ArrayList <Commande> commandes = new ArrayList<>(); // association 1_N
 
 	public boolean addCommande(Commande cde) {
 		return commandes.add(cde);
@@ -27,7 +25,7 @@ public class Client extends Personne {
 		
 	}
 
-	public Client(int idClient, ArrayList<Commande> commandes) {
+	public Client(int idClient, ArrayList <Commande> commandes) {
 		super();
 		this.idClient = idClient;
 		this.commandes = commandes;
